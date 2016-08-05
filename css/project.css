@@ -1,0 +1,326 @@
+body{
+	
+	position: relative;
+	height:3500px;
+	margin:0;
+	padding:0;
+	background-color: #151515;
+
+}
+
+#headerbox{
+
+	width:100%;
+	height:6%;
+	max-height:90px;
+	border-bottom:4px solid #31B404;
+}
+
+#icon{
+	float:left;
+	height:100%;
+	width:20%;
+}
+
+#icon img{
+
+	border-radius: 50%;
+	width:28%;
+	height:100%;
+	float:right;
+	margin-right: 6%;
+	
+
+}
+
+#namebox{
+
+	width:80%;
+	height:100%;
+	margin-top:1.5%;
+	font-family:'Brush Script MT',cursive;
+	font-size:300%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	color: white;
+}
+
+#profilebox{
+
+	width:50%;
+	height:50%;
+	border:0.5px solid #151515;
+	margin-top:1%;
+	margin-left:10%;
+}
+
+#mainbody{
+
+	width:100%;
+	height:80%;
+	border:0.5px solid #2E2E2E;
+}
+
+#headerbar{
+
+	width:100%;
+	height:50px;
+	background-color: 00000;
+	
+	margin:0 auto;
+	text-align: center;
+	opacity:0.7;
+}
+
+#headerbar ul{
+
+	margin:0 auto;
+	display:inline-block;
+	text-align: center;
+	height:90%;
+	width:35%;
+	margin-top:5px;
+	font-family: 'Lucida Bright', Georgia, serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	
+
+  
+
+}
+
+#headerbar ul li{
+	
+	margin-top:8px;
+	width:25%;
+	display:inline-block;
+	float: left;
+    padding: 0;
+}
+
+#headerbar ul li a{
+	text-decoration: none;
+	color:white;
+	opacity:;
+}
+#headerbar ul li:hover a {
+  color: red;
+}
+
+
+#sidebar{
+
+	margin-top:2%;
+	margin-left:5%;
+	height:80%;
+	max-height:960px;
+	width:17%;
+	border-right:4px solid #21610B;
+	border-radius: 5%;
+	float:left;
+}
+
+
+#profilepicture{
+
+	width:65%;
+	height:29%;
+	margin-top:20%;
+	margin-left:20%;
+	
+}
+
+#profilepicture img{
+
+	width:100%;
+	height:100%;
+	border-radius: 50%;
+
+}
+
+.linktext{
+	width:60%;
+	float:left;
+	height:0.5%;
+	margin-top:6%;
+	margin-left:6%;
+	
+}
+#links{
+
+	width:90%;
+	height:28%; 
+	margin-top:3%;
+	
+}
+
+#links img{
+	margin-top:1%;
+	height:13%;
+	width:11%;
+}
+
+#links ul{
+	text-align: center;
+	list-style: none;
+	margin-right:1%;
+}
+
+#links ul li{
+
+	
+	margin-top:2%;
+	border-radius: 2%;
+	background-color: #000000;
+	font-family: 'Lucida Bright', Georgia, serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	box-shadow: 2px 2px  #1C1C1C;
+	}
+
+#links ul li a{
+	text-decoration: none;
+	color:white;
+	opacity:;
+}
+
+#aboutme{
+	
+	width:80%;
+	height:20%;
+	margin-top:8%;
+	margin-left:10%;
+	
+}
+
+#aboutmetitlebar{
+
+	width:90%;
+	height:22%;
+	margin-left:5%;
+	font-family:'Brush Script MT',cursive;
+	font-size:250%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	color: #E6E6E6;
+}
+
+#aboutmebody{
+
+	width:90%;
+	height:66%;
+	margin-top:7%;
+	margin-left:5%;
+	font-family:'Brush Script MT',cursive;
+	font-size:150%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	color: white;
+}
+
+#socialtitlebox{
+	
+	width:80%;
+	height:17%;
+	margin-top:2%;
+	margin-left:16%;
+	font-family:'Brush Script MT',cursive;
+	font-size:250%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	color: #E6E6E6;
+}
+
+#mainbodybox{
+
+	height:80%;
+	float:right;
+	width:60%;
+	margin-top:2%;
+	margin-right:13%;
+}
+
+#recenttitlebar{
+
+	font-family:'Brush Script MT',cursive;
+	font-size:250%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	color: #E6E6E6;
+	width:95%;
+	height:5%;
+	margin-top:1%;
+	margin-left:2.5%;
+}
+
+.biotitlebar{
+
+	width:70%;
+	height:5%;
+	max-height: 60px;
+	margin-left:5%;
+	margin-top:3%;
+	color: #E6E6E6;
+	font-family:'Brush Script MT';
+	font-size:200%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	border-left: 2px #21610B solid;
+	padding-left:2%;
+}
+
+
+.biobodys{
+
+	border-left:2px solid #21610B;
+	border-bottom:2px solid #21610B;
+	width:90%;
+	height:35%;
+	padding-left: 10px;
+	max-height: 336px;
+	overflow-y:scroll; 
+	margin-top:3%;
+	margin-left:5%;
+	font-family:'Brush Script MT',cursive;
+	color: #E6E6E6;
+}
+
+.biobodys img{
+	height:7%;
+	width:5%;
+}
+
+
+
+.biobodys a{
+		color: #E6E6E6;
+	text-decoration: none;
+	font-family: 'Lucida Bright', Georgia, serif;
+	font-family: 
+	
+}
+
+
+
+
+
+.subtitle{
+
+	font-size:150%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 200;
+	color:#2E2EFE;
+
+}

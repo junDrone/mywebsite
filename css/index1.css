@@ -1,0 +1,382 @@
+body{
+	
+	position: relative;
+	height:1500px;
+	margin:0;
+	padding:0;
+	background-color: #151515;
+	min-height: 1000px;
+	overflow-x: scroll;
+	min-width: 900px;
+
+}
+
+#headerbox{
+
+	width:100%;
+	height:6%;
+	border-bottom:4px solid #31B404;
+
+}
+
+#icon{
+	float:left;
+	height:100%;
+	width:20%;
+	
+}
+
+#icon img{
+
+	border-radius: 50%;
+	width:28%;
+	height:100%;
+	float:right;
+	margin-right: 6%;
+	
+
+}
+
+#namebox{
+
+	width:80%;
+	height:100%;
+	margin-top:1.5%;
+	font-family:'Brush Script MT',cursive;
+	font-size:300%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 26.4px;
+	color: white;
+}
+
+#profilebox{
+
+	width:50%;
+	height:50%;
+	border:0.5px solid #151515;
+	margin-top:1%;
+	margin-left:10%;
+}
+
+
+#mainbody{
+
+	width:100%;
+	height:80%;
+	borfder:0.5px solid #2E2E2E;
+}
+
+#headerbar{
+
+	width:100%;
+	height:50px;
+	background-color: 00000;
+	
+	margin:0 auto;
+	text-align: center;
+	opacity:0.7;
+}
+
+#headerbar ul{
+
+	margin:0 auto;
+	display:inline-block;
+	text-align: center;
+	height:90%;
+	width:35%;
+	margin-top:5px;
+	font-family: 'Lucida Bright', Georgia, serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	
+
+  
+
+}
+
+#headerbar ul li{
+	
+	margin-top:8px;
+	width:25%;
+
+	display:inline-block;
+	float: left;
+    
+    padding: 0;
+}
+
+#headerbar ul li a{
+	text-decoration: none;
+	color:white;
+	opacity:;
+}
+#headerbar ul li:hover a {
+  color: red;
+}
+
+
+#sidebar{
+
+	margin-top:2%;
+	margin-left:5%;
+	height:80%;
+	width:17%;
+	min-width: 290px;
+	border-right:4px solid #21610B;
+	float:left;
+	background-color: #000000;
+}
+
+
+#profilepicture{
+
+	width:65%;
+	height:29%;
+	margin-top:20%;
+	margin-left:20%;
+	
+}
+
+#profilepicture img{
+
+	width:100%;
+	height:100%;
+	border-radius: 50%;
+
+}
+
+.linktext{
+	width:60%;
+	float:left;
+	height:0.5%;
+	margin-top:6%;
+	margin-left:6%;
+	
+}
+#links{
+
+	width:90%;
+	height:28%; 
+	margin-top:3%;
+	
+}
+
+#links img{
+	margin-top:1%;
+	height:13%;
+	width:11%;
+}
+
+#links ul{
+	text-align: center;
+	list-style: none;
+	margin-right:1%;
+}
+
+#links ul li{
+
+	
+	margin-top:2%;
+	border-radius: 2%;
+	background-color: #000000;
+	font-family: 'Lucida Bright', Georgia, serif;
+	font-size: 18px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	box-shadow: 2px 2px  #1C1C1C;
+	}
+
+#links ul li a{
+	text-decoration: none;
+	color:white;
+	opacity:;
+}
+
+#aboutme{
+	
+	width:80%;
+	height:20%;
+	margin-top:8%;
+	margin-left:10%;
+	
+}
+
+#aboutmetitlebar{
+
+	width:90%;
+	height:22%;
+	margin-left:5%;
+	font-family:'Brush Script MT',cursive;
+	font-size:250%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	color: #E6E6E6;
+}
+
+#aboutmebody{
+
+	width:90%;
+	height:66%;
+	margin-top:7%;
+	margin-left:5%;
+	font-family:'Brush Script MT',cursive;
+	font-size:150%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	color: white;
+}
+
+#socialtitlebox{
+	
+	width:80%;
+	height:17%;
+	margin-top:2%;
+	margin-left:16%;
+	font-family:'Brush Script MT',cursive;
+	font-size:250%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	color: #E6E6E6;
+}
+
+#mainbodybox{
+
+	height:80%;
+	float:right;
+	width:60%;
+	mlin-width: 1035px;
+	margin-top:4%;
+	margin-right:13%;
+	font-family: "Franklin Gothic Medium", "Franklin Gothic", "ITC Franklin Gothic", Arial, sans-serif;
+	font-size: 14px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.4px;
+	bordler:1px solid red;
+}
+
+#educationbox{
+
+	width:90%;
+	height:35%;
+	background-color: #000000;
+	min-width:900px;
+
+}
+
+#technicalskills{
+
+	width:90%;
+	height:40%;
+	min-width: 900px;
+	background-color: #000000;
+	margin-top:5%;
+	font-size: 150%;
+}
+
+
+
+.educationboxheader{
+
+	float:left;
+	text-align: center;	
+	min-width:30%;
+	width:auto;
+	height:90%;
+	color: white;
+	padding-top: 5%;
+
+
+}
+.educationboxbody{
+	height:85%;
+	color: white;
+	width:65%;
+	float:right;
+	font-size: 100%;
+	padding-top: 5%;
+
+
+}
+
+.techskillbody{
+
+	width:95%;
+	height:90%;
+	color: white;
+	padding-top: 5%;
+	padding-left:5%;
+	bokrder:1px solid white;
+	
+
+}
+
+#contactme{
+
+	width:85%;
+	height:27%;
+	color: white;
+	margin-top:5%;
+	padding-top: 5%;
+	padding-left:5%;
+	background-color: #000000;
+	min-width:900px;
+}
+
+#col1,#col2,#col3{
+	display: block;
+	width:100%;
+	height:7%;
+	
+}
+.techskillbody a{
+
+	display: inline-block;
+	width:12%;
+	height:97%;
+	margin-left: 5%;
+	text-decoration: none;
+	background-color: #00FF80 ;
+	padding-top: 8px;
+	text-align: center;
+	bordler:1px solid white;
+	border-radius: 8%;
+	color:white;
+}
+
+.techskillbody a:hover{
+	background-color: #04B45F;
+}
+
+.subtitle{
+
+	font-size:150%;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 200;
+	color:#2E2EFE;
+
+}
+
+#email{
+
+	width:40%;
+	height:10%;
+	margin-top: 1%;
+	border-radius: 15px;
+}
+
+#emailbutton{
+
+	margin-top:1%;
+	margin-left:10%;
+}
